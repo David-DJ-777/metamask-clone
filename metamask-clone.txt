@@ -1,0 +1,57 @@
+Original prompt
+================
+
+I want to build a clone Metamask. It is a showcase / tutorial to interact various blockchain with Intellij Plugin.
+
+Technical stacks:
+- Using Kotlin as language.
+- build on top of Intellij Plugin.
+- code package: dev.eastgate.metamaskclone
+- using Kotlin 2.2.0 with Jdk 21.
+- Project name: Metamask-Clone
+
+Objective:
+Use Kotlin with Intellij Plugin as platform, able to interact EVM blockchain (Mainnet & Testnet)
+
+1. Please make Testnet as default Blockchain (Because this is showcase / tutorial). At the same time, also can switch to Mainnet.
+2. Predefined EVM chain: BNB (default), ETH. But allow user to add custom RPC and blockchain.
+3. Able to create multiple wallet address.
+4. Able to import / export wallet address.
+5. Able to use 12 / 24 mnemonic seed phrase to generate wallet address.
+6. Able to import ERC20 token.
+7. Able to send COIN and ERC20 token.
+8. Transaction History.
+
+
+I will create a basic Intellij Plugin. Please help me to add related dependency libarary.
+
+You may need to break down few phase. Each phase must implement the function and UI.
+
+
+UI Requirement
+Generally, the UI please refer to Metamask
+As we know Metamask is an extension for Google Chrome browser. In our case, we want this Metamask clone appear at right tool of IntelliJ. Which I mean we add a Tool Window which same location for 'Gradle', 'Database' and 'Notifiction'. I hope you understand what I mean.
+
+
+Phase 1: Basic EVM blockchain function
+1. All data must persists at project level config.
+2. Able to create wallet address. Just make a simple button to create wallet address.
+3. Able to name wallet address.
+4. Able to import / export wallet address with private key.
+
+Phase 2: Advance EVM blockchain function
+1. Able to share wallet address
+2. Able to create wallet address with mnemonic seed phrase.
+3. able to add multiple EVM blockchain. Please pre-define ETH & BNB
+
+Phase 3: Interact with EVM blockchain
+1. Display wallet balance.
+2. Able to send COIN.
+3. Able to add / delete ERC20 token.
+4. Able to send ERC20
+
+Phase 4: Transaction History
+1. Display Transaction History
+2. Display Transaction Detail Information.
+
+Please create a md file. Named it as 'metamask-clone-plan.md'.

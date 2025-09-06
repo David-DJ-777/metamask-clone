@@ -1,0 +1,49 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>dev.eastgate.metamaskclone</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>MetaMask Clone</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://github.com/eastgatedev">Eastgate</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        EVM Blockchain interaction tool for IntelliJ IDEA<br/>
+        <br/>
+        Features:<br/>
+        • Multi-wallet management with secure storage<br/>
+        • Support for Ethereum and BNB chains<br/>
+        • ERC20 token management<br/>
+        • Transaction history tracking<br/>
+        • Testnet-first approach for safety<br/>
+    ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Tool Window -->
+        <toolWindow id="MetaMask Clone" 
+                   secondary="true" 
+                   anchor="right" 
+                   factoryClass="dev.eastgate.metamaskclone.ui.MetaMaskToolWindowFactory"
+                   icon="/META-INF/pluginIcon.svg"/>
+        
+        <!-- Project Settings -->
+        <projectConfigurable parentId="tools" 
+                           instance="dev.eastgate.metamaskclone.settings.MetaMaskConfigurable"
+                           id="dev.eastgate.metamaskclone.settings"
+                           displayName="MetaMask Clone"/>
+        
+        <!-- Project Service for Data Persistence -->
+        <projectService serviceImplementation="dev.eastgate.metamaskclone.core.storage.ProjectStorage"/>
+    </extensions>
+</idea-plugin>
